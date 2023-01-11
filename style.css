@@ -259,8 +259,8 @@ section .title::after{
 .about .about-content .left img{
     height: 450px;
     width: 350px;
-    object-fit: cover;
-    border-radius: 16px;
+    object-fit: fill;
+    border-radius: 26px;
 }
 .about .about-content .right{
     width: 55%;
@@ -295,7 +295,7 @@ section .title::after{
     padding: 0.8rem;
     font-size: 14px;
     text-transform: uppercase;
-    border-radius: 4px;
+    border-radius: 6px;
     font-weight: 400;
     display: block;
     width: 100%;
@@ -336,10 +336,13 @@ section .title::after{
   .card {
     background-color: white;
     border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 20px 40px -9px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     overflow: hidden;
+  }
+  .card:hover {
+    box-shadow: 0 30px 60px -3px rgba(0, 0, 0, 0.25);
   }
   
   .card_content {
@@ -363,8 +366,6 @@ section .title::after{
     margin-bottom: 1.25rem;    
     font-weight: 400;
   }
-
-
 
 .contact{
     padding-bottom: 0px;
