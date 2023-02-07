@@ -268,7 +268,12 @@ section .title::after{
 .about .about-content .right{
     width: 55%;
 }
-
+#about-image{
+    min-height: 10vh;
+    min-width: 10vh;
+    max-height: 38vh;
+    object-fit: cover; object-position: 100% 0;
+}
 
 .about .about-content .right p{
     text-align: justify;
