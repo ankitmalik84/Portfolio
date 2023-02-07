@@ -340,7 +340,21 @@ section .title::after{
       width: 33.3333%;
     }
   }
-  
+  #gaadi{
+    width: 390px;
+    height: 215px;
+    object-fit: fill;
+  }
+  #app{
+    width: 390px;
+    height: 215px;
+    object-fit: contain;
+  }
+  #music{
+    width: 390px;
+    height: 215px;
+    object-fit: cover;
+  }
   .card {
     background-color: white;
     border-radius: 0.55rem;
